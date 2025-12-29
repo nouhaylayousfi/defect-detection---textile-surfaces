@@ -1,6 +1,25 @@
+# Environnements
 venv/
-__pycache__/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
 data/
-results/
+datasets/
+notebooks/datasets/
+*.csv
+*.zip
+*.tar
+*.tar.gz
+
+# Modèles
+*.h5
 *.pt
+*.pth
 *.ckpt
+
+# Cache
+__pycache__/
+
