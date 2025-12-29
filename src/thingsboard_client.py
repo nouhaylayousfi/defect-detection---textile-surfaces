@@ -4,7 +4,7 @@ import time
 
 # === CONFIGURE ICI TES INFOS THINGSBOARD ===
 THINGSBOARD_HOST = "demo.thingsboard.io" 
-ACCESS_TOKEN = "****"
+ACCESS_TOKEN = "Smc41S74DCYXGpYPAWdn"
 client = mqtt.Client()
 client.username_pw_set(ACCESS_TOKEN)
 
